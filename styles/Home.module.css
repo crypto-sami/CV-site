@@ -66,6 +66,8 @@
   background-color: #052135;
   display: flex;
   margin-top: 0px;
+  max-width: auto;
+  min-width: auto;
   max-height: 10rem;
 }
 
