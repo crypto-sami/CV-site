@@ -58,17 +58,12 @@
 }
 
 .slideshow {
-  justify-content: center;
   align-items: center;
-  align-content: center;
   text-align: center;
-  padding: 25%;
   background-color: #052135;
   display: flex;
-  margin-top: 0px;
-  max-width: auto;
-  min-width: auto;
-  max-height: 10rem;
+  padding: 20%;
+  max-height: 90%;
 }
 
 .top_bottom {

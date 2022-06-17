@@ -154,11 +154,11 @@ const Home: NextPage = () => {
       <div className={styles.slideshow}>
         <Carousel>
           <div>
-              <img src="/img2.jpg" alt="image2" />
+              <img src="/img5.jpg" alt="image2" />
 
           </div>
           <div>
-              <img src="/img3.jpg" alt="image3"/>
+              <img src="/img6.jpg" alt="image3"/>
 
           </div>
           <div>
