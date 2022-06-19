@@ -9,6 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Head from "next/head";
 
+
 const Home: NextPage = () => {
   const width = 250;
   return (
@@ -67,7 +68,13 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className={styles.footer}>
-        Developed by Sami Turk
+        <p>
+          Developed by Sami Turk, Click {" "} 
+          <a href="/about" target="_blank">
+            here
+          </a>
+          {" "}to learn more
+        </p>
       </div>
     </>
   );
