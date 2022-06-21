@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import wave from "./images/wave.png";
 import me from "./images/sami.jpeg";
+
 import plane from "./images/plane.jpg";
 import styles from "../styles/Home.module.css";
 import Timeline from "./components/timeline-points";
@@ -9,6 +10,9 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
+import img6 from "../public/img6.jpg";
+import img5 from "../public/img5.jpg";
+import img3 from "../public/img3.jpg";
 
 
 
@@ -154,19 +158,19 @@ const Home: NextPage = () => {
       </div>
       <div className={styles.slideshow}>
         <Image
-          src="/img6.jpg"
+          src={img6.src}
           alt="img6"
           width="922px"
           height="615px"
         />
         <Image
-          src="/img5.jpg"
+          src={img5.src}
           alt="img5"
           width="922px"
           height="615px"
         />
         <Image
-          src="/img3.jpg"
+          src={img3.src}
           alt="img3"
           width="922px"
           height="615px"
