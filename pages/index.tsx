@@ -7,7 +7,6 @@ import 'font-awesome/css/font-awesome.min.css';
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image'
-import img6 from "../public/img6.jpg";
 import img5 from "../public/img5.jpg";
 import img3 from "../public/img3.jpg";
 
@@ -154,12 +153,6 @@ const Home: NextPage = () => {
         View some of my photos below
       </div>
       <div className={styles.slideshow}>
-        <Image
-          src={img6.src}
-          alt="img6"
-          width="922px"
-          height="615px"
-        />
         <Image
           src={img5.src}
           alt="img5"
