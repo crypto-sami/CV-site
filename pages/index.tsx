@@ -8,6 +8,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import Image from 'next/image'
 
 
 
@@ -152,20 +153,25 @@ const Home: NextPage = () => {
         View some of my photos below
       </div>
       <div className={styles.slideshow}>
-        <Carousel>
-          <div>
-              <img src="/img5.jpg" alt="image2" />
+        <Image
+          src="/img6.jpg"
+          alt="img6"
+          width="922px"
+          height="615px"
+        />
+        <Image
+          src="/img5.jpg"
+          alt="img5"
+          width="922px"
+          height="615px"
+        />
+        <Image
+          src="/img3.jpg"
+          alt="img3"
+          width="922px"
+          height="615px"
+        />
 
-          </div>
-          <div>
-              <img src="/img6.jpg" alt="image3"/>
-
-          </div>
-          <div>
-              <img src="/img4.jpg" alt="image4"/>
-
-          </div>
-        </Carousel>
       </div>
       <div className={styles.footer}>
         Developed by Sami Turk
