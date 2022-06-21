@@ -174,7 +174,13 @@ const Home: NextPage = () => {
 
       </div>
       <div className={styles.footer}>
-        Developed by Sami Turk
+        <p>
+          Developed by Sami Turk, Visit my {" "} 
+          <a href="https://github.com/crypto-sami" target="_blank">
+            GitHub
+          </a>
+          {" "}to learn more
+        </p>
       </div>
     </>
   );
