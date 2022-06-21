@@ -1,14 +1,11 @@
 import type { NextPage } from "next";
 import wave from "./images/wave.png";
 import me from "./images/sami.jpeg";
-
-import plane from "./images/plane.jpg";
 import styles from "../styles/Home.module.css";
 import Timeline from "./components/timeline-points";
 import 'font-awesome/css/font-awesome.min.css';
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
 import img6 from "../public/img6.jpg";
 import img5 from "../public/img5.jpg";
