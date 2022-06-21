@@ -70,7 +70,7 @@ const Home: NextPage = () => {
       <div className={styles.footer}>
         <p>
           Developed by Sami Turk, Click {" "} 
-          <a href="/about" target="_blank">
+          <a href="/" target="_blank">
             here
           </a>
           {" "}to learn more
