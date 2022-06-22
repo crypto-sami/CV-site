@@ -53,26 +53,12 @@ const Home: NextPage = () => {
                 <p>
                   In the Summer of 2021 i started my PPL journey, first flying solo in November 2021 at the age of 16
                 </p>
-                <a
-                  href="https://github.com/Ugric/typechat"
-                  target="_blank"
-                  className={styles.source}
-                >
-                  Source
-                </a>
               </>,
               <>
                 <h1>Aircraft Photography</h1>
                 <p>
                   Recently i got into aircraft photography.What primarily started as a hobby along side my flying lessons, i now regularly like to photograph and edit my pictures of different aircraft
                 </p>
-                <a
-                  href= "https://raw.githubusercontent.com/crypto-sami/CV-site/main/pages/images/plane.jpg"
-                  target="_blank"
-                  className={styles.source}
-                >
-                  Source
-                </a>
               </>,
               <>
                 <h1>Started Programming</h1>
@@ -86,26 +72,12 @@ const Home: NextPage = () => {
                     here
                   </a>
                 </p>
-                <a
-                  href="https://github.com/crypto-sami/Easy-Crypto-Bot"
-                  target="_blank"
-                  className={styles.source}
-                >
-                  Source
-                </a>
               </>,
               <>
                 <h1>Lived in Australia</h1>
                 <p>
                   I moved back to the UK in 2017 after 6 years living in Sydney, Australia
                 </p>
-                <a
-                  href="https://github.com/crypto-sami/Easy-Crypto-Bot"
-                  target="_blank"
-                  className={styles.source}
-                >
-                  Source
-                </a>
               </>,
             ]}
           ></Timeline>
