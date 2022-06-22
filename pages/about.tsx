@@ -60,7 +60,7 @@ const Home: NextPage = () => {
             ></a>
             <a
               className={`${styles.icons} fa fa-envelope`}
-              href="mailto:me@samiturk.com"
+              href="mailto:me@sturk.au"
               target="_blank"
               rel="noopener noreferrer"
             ></a>            

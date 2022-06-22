@@ -88,8 +88,8 @@ const Home: NextPage = () => {
           <h1>Contact Me</h1>
           <p>
             Email{" "}
-            <a href="mailto:me@samiturk.com" target="_blank">
-              me@samiturk.com
+            <a href="mailto:me@sturk.au" target="_blank">
+              me@sturk.au
             </a>
             , or visit my{" "} 
             <a href="/about" target="_blank">
