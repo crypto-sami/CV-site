@@ -9,19 +9,6 @@
   background-color: #42b0f5;
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px calc(100% - 5vw));
   color: #1b3442;
-  animation: top-slide 1.5s ease-in-out;
-}
-
-@keyframes top-slide {
-  0% {
-    transform: translateY(-100%);
-  }
-  25% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 
 @keyframes wave {
@@ -112,10 +99,7 @@
   padding: 3rem;
   max-width: 750px;
   margin: auto;
-  opacity: 0;
-  animation: fadeIn 1.5s ease-in-out forwards;
-  animation-delay: 0.75s;
-  height: 0;
+  height: auto;
 }
 
 .boxed h1 {
@@ -136,31 +120,13 @@
   background-color: #052135;
   clip-path: polygon(0 5vw,100% 0,100% 100%, 0 100%);
   color: #288ed7;
-  animation: fadeIn 1.5s ease-in-out forwards;
-  animation-delay: 1.75s;
-  opacity: 0;
-
+  opacity: auto;
 }
 
 .bottom_container div {
   text-align: center;
   filter: drop-shadow(3px 3px 0px #1b3442);
-  animation: fadeIn 1.5s ease-in-out forwards;
-  animation-delay: 1.75s;
-}
 
-
-@keyframes fadeIn {
-  0% {
-    height: auto;
-    opacity: 0;
-    transform: translateY(100%);
-  }
-  100% {
-    height: auto;
-    opacity: 1;
-    transform: translateY(0%);
-  }
 }
 
 .bottom_Icons {
@@ -174,7 +140,6 @@
   margin: 2rem 0;
   filter: drop-shadow(3px 3px 0px #0050004d);
   text-align: center;
-
 }
 
 .icons {
@@ -209,7 +174,6 @@
   background-color: #42b0f5;
   clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px calc(100% - 5vw));
   color: #1b3442;
-  animation: top-slide 1.5s ease-in-out;
 }
 
 .bottom_about_Icons {
@@ -223,7 +187,6 @@
   margin: 2rem 0;
   filter: drop-shadow(3px 3px 0px #0050004d);
   text-align: center;
-
 }
 
 .bottom_about_container {
@@ -237,12 +200,10 @@
   align-content: center;
   text-align: center;
   margin-bottom: 30px;
-
   color: #288ed7;
   animation: fadeIn 1.5s ease-in-out forwards;
   animation-delay: 1.75s;
   opacity: 0;
-
 }
 
 .footer{
