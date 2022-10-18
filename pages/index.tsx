@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             ></img>
             , I'm Sami.
           </h1>
-          <h2>I'm passionate about aviation and software</h2>
+          <h2>I'm passionate about aviation and technology</h2>
         </div>
         <div>
           <img
