@@ -9,11 +9,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image'
 import img5 from "../public/img5.jpg";
 import img3 from "../public/img3.jpg";
-import Swiper, {Navigation} from 'swiper';
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-
 
 
 const Home: NextPage = () => {
