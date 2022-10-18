@@ -41,6 +41,10 @@
   filter: drop-shadow(3px 3px 0px #288ed7);
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
 
 .introduction {
   font-size: 3rem;
