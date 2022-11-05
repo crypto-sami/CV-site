@@ -28,22 +28,10 @@
   background-color: #052135;
   border: 2.5px solid #42b0f5;
   top: 50%;
-  transform: translate(-30px, -14px);
-  animation: circle-slide 1s ease-in-out forwards;
-  animation-delay: 0.85s;
+  transform: translate(-14px, -14px);
 }
 
-@keyframes circle-slide {
-  0% {
-    transform: translate(-30px, -14px);
-  }
-  25% {
-    transform: translate(-30px, -14px);
-  }
-  100% {
-    transform: translate(-14px, -14px);
-  }
-}
+
 
 .Timeline .point .line {
   width: 2.5px;
