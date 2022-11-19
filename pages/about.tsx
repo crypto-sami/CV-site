@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       <div className={styles.top_about_container}>
         <div>
           <h1 className={styles.introduction}>Hey, I'm Sami.</h1>
-          <h2>I'm passionate about aviation and software</h2>
+          <h2>I'm passionate about aviation and technology</h2>
         </div>
       </div>
       <div className={styles.bottom_about_container}>
