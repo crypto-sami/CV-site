@@ -54,7 +54,7 @@ const Home: NextPage = () => {
               <>
                 <h1>Aircraft Photography</h1>
                 <p>
-                  Recently i got into aircraft photography.What primarily started as a hobby along side my flying lessons, i now regularly like to photograph and edit my pictures of different aircraft
+                  Recently i got into aircraft photography. What primarily started as a hobby along side my flying lessons, i now regularly like to photograph and edit my pictures of different aircraft
                 </p>
               </>,
               <>
