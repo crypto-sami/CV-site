@@ -105,7 +105,7 @@ const Home: NextPage = () => {
             ></a>
             <a
               className={`${styles.icons} fa fa-instagram`}
-              href="https://www.instagram.com/planespotter.sami"
+              href="https://www.instagram.com/pilot.sami05"
               target="_blank"
               rel="noopener noreferrer"
             ></a>

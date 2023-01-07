@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           <div className={styles.bottom_about_Icons}>
             <a
               className={`${styles.icons} fa fa-instagram`}
-              href="https://www.instagram.com/planespotter.sami"
+              href="https://www.instagram.com/pilot.sami05"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
