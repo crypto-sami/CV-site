@@ -7,9 +7,6 @@ import 'font-awesome/css/font-awesome.min.css';
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image'
-import img5_d from "../public/img5_d.jpg";
-import img3_d from "../public/img3_d.jpg";
-import TweetEmbed from 'react-tweet-embed'
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 
