@@ -51,13 +51,24 @@
 .slideshow {
   align-items: center;
   flex-direction: row;
-  flex-wrap: nowrap;
   text-align: center;
   background-color: #052135;
   display: flex;
-  padding-top: 40px;
-  padding-bottom: 40px;
   justify-content: center;
+  padding: 2rem;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.follow {
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  background-color: #052135;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .top_bottom {

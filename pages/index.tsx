@@ -9,6 +9,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image'
 import img5_d from "../public/img5_d.jpg";
 import img3_d from "../public/img3_d.jpg";
+import TweetEmbed from 'react-tweet-embed'
+import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 
 
 const Home: NextPage = () => {
@@ -122,19 +124,32 @@ const Home: NextPage = () => {
         View some of my photos below
       </div>
       <div className={styles.slideshow}>
-        <Image
-          src={img5_d.src}
-          alt="img5_d"
-          width="922px"
-          height="615px"
+      <TwitterTweetEmbed
+          tweetId={'1611427336829689856'}
+          options={{
+            theme: 'dark'
+          }}
         />
-        <Image
-          src={img3_d.src}
-          alt="img3_d"
-          width="922px"
-          height="615px"
+        <TwitterTweetEmbed
+          tweetId={'1537796514348662784'}
+          options={{
+            theme: 'dark'
+          }}
         />
-
+        <TwitterTweetEmbed
+          tweetId={'1626516839525130240'}
+          options={{
+            theme: 'dark'
+          }}
+        />
+      </div>
+      <div className={styles.follow}>
+      <TwitterFollowButton
+        screenName={'SamiTurk12'}
+        options={{
+          size: 'large'
+        }}
+      />
       </div>
       <div className={styles.footer}>
         <p>
@@ -148,5 +163,7 @@ const Home: NextPage = () => {
     </>
   );
 };
+
+
 
 export default Home;
