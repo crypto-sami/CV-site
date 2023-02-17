@@ -121,8 +121,8 @@ const Home: NextPage = () => {
         View some of my photos below
       </div>
       <div className={styles.slideshow}>
-      <TwitterTweetEmbed
-          tweetId={'1611427336829689856'}
+        <TwitterTweetEmbed
+          tweetId={'1626516839525130240'}
           options={{
             theme: 'dark'
           }}
@@ -134,11 +134,11 @@ const Home: NextPage = () => {
           }}
         />
         <TwitterTweetEmbed
-          tweetId={'1626516839525130240'}
+          tweetId={'1611427336829689856'}
           options={{
             theme: 'dark'
           }}
-        />
+        /> 
       </div>
       <div className={styles.follow}>
       <TwitterFollowButton
