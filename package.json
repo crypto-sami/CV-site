@@ -23,7 +23,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-scrollmagic": "^2.3.0",
     "react-twitter-embed": "^4.0.4",
-    "swiper": "^8.4.4"
+    "swiper": "^9.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.33",
