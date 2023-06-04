@@ -12,14 +12,9 @@ body {
 a {
   color: #42b0f5;
 }
-/* At last you have to copy these css styles from here ,Create a CSS file and paste it and import the file */
 
-/* Also you can customize these css styles*/
-
-/* In my case, I use these CSS styles in my App.css file*/
 .swiper {
-  width: 20%;
-  height: 100%;
+  width: 45%;
   padding-top: 50px;
   padding-bottom: 50px;
 }

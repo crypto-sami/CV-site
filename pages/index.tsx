@@ -4,10 +4,32 @@ import me from "./images/sami.jpeg";
 import styles from "../styles/Home.module.css";
 import Timeline from "./components/timeline-points";
 import 'font-awesome/css/font-awesome.min.css';
-import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image'
 import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import React from "react";
+import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import "../styles/Home.module.css"
+import a from "./images/a.jpg";
+import b from "./images/b.jpg";
+import c from "./images/c.jpg";
+import d from "./images/d.jpg";
+import e from "./images/e.jpg";
+
+SwiperCore.use([EffectCoverflow, Pagination]);
+// if you want to use array
+const slide_img = [
+  a.src,
+  b.src,
+  c.src,
+  d.src,
+  e.src,
+];
+
+
 
 
 const Home: NextPage = () => {
@@ -121,32 +143,29 @@ const Home: NextPage = () => {
         View some of my photos below
       </div>
       <div className={styles.slideshow}>
-        <TwitterTweetEmbed
-          tweetId={'1626516839525130240'}
-          options={{
-            theme: 'dark'
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={"auto"}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: false,
           }}
-        />
-        <TwitterTweetEmbed
-          tweetId={'1537796514348662784'}
-          options={{
-            theme: 'dark'
-          }}
-        />
-        <TwitterTweetEmbed
-          tweetId={'1611427336829689856'}
-          options={{
-            theme: 'dark'
-          }}
-        /> 
-      </div>
-      <div className={styles.follow}>
-      <TwitterFollowButton
-        screenName={'SamiTurk12'}
-        options={{
-          size: 'large'
-        }}
-      />
+          pagination={true}
+          className="mySwiper"
+        >
+          {slide_img.map((img, i) => {
+            return (
+              <SwiperSlide key={i}>
+                <img src={img} alt="" />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       </div>
       <div className={styles.footer}>
         <p>

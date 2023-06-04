@@ -120,7 +120,7 @@
 
 .bottom_container {
   min-height: 200px;
-  padding: 4rem;
+  padding-top: 4rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
