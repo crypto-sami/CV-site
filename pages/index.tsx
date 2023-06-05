@@ -131,12 +131,6 @@ const Home: NextPage = () => {
               rel="noopener noreferrer"
             ></a>
             <a
-              className={`${styles.icons} fa fa-twitter`}
-              href="https://twitter.com/SamiTurk12"
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a>
-            <a
               className={`${styles.icons} fa fa-plane`}
               href="https://www.jetphotos.com/photographer/103259"
               target="_blank"
