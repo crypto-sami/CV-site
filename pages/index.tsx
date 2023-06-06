@@ -110,7 +110,7 @@ const Home: NextPage = () => {
               me@sturk.au
             </a>
             , or visit my{" "} 
-            <a href="/about" target="_blank">
+            <a href="/links" target="_blank">
               links
             </a>
             {" "}page.
