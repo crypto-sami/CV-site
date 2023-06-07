@@ -18,6 +18,7 @@ import b from "./images/b.jpg";
 import c from "./images/c.jpg";
 import d from "./images/d.jpg";
 import e from "./images/e.jpg";
+import { Navigation } from "swiper";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 // if you want to use array
@@ -145,6 +146,8 @@ const Home: NextPage = () => {
       <div className={styles.slideshow}>
         <Swiper
           effect={"coverflow"}
+          navigation={true}
+          modules={[Navigation]}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
