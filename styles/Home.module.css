@@ -175,6 +175,8 @@
   min-height: 200px;
   padding-top: 5rem;
   padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
