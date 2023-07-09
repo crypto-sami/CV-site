@@ -217,8 +217,6 @@
 }
 
 .footer{
-  padding: 0.5rem;
-  padding-right: 1rem;
   background-color: #1b3442;
   flex-direction: column;
   color: #288ed7;
@@ -228,7 +226,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  max-height: 25px;
+  max-height: 40px;
+
 }
 
 .seperator{

@@ -40,15 +40,7 @@ const Home: NextPage = () => {
       <div className={styles.top_container}>
         <div>
           <h1 className={styles.introduction}>
-            Hey{" "}
-            <img
-              src={wave.src}
-              width="50px"
-              height="50px"
-              alt="👋"
-              className={styles.wave}
-            ></img>
-            , I'm Sami.
+            Hello, I'm Sami.
           </h1>
           <h2>I'm passionate about aviation and technology</h2>
         </div>
@@ -110,11 +102,7 @@ const Home: NextPage = () => {
             <a href="mailto:me@sturk.au" target="_blank">
               me@sturk.au
             </a>
-            , or visit my{" "} 
-            <a href="/links" target="_blank">
-              links
-            </a>
-            {" "}page.
+            {" "}to get in touch
           </p>
         </div>
         <div>
