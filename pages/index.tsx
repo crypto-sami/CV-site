@@ -127,13 +127,13 @@ const Home: NextPage = () => {
             ></a>
             <a
               className={`${styles.icons} fa fa-instagram`}
-              href="https://www.instagram.com/pilot.sami05"
+              href="https://ig.sturk.au"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
             <a
               className={`${styles.icons} fa fa-plane`}
-              href="https://www.jetphotos.com/photographer/103259"
+              href="https://photos.sturk.au"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
