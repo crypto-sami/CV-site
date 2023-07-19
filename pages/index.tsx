@@ -37,6 +37,12 @@ const Home: NextPage = () => {
   const width = 250;
   return (
     <>
+      <div>
+        <Image
+          src={e}
+          alt="Picture of the author"
+        />
+      </div>
       <div className={styles.top_container}>
         <div>
           <h1 className={styles.introduction}>
