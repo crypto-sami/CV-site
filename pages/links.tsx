@@ -30,13 +30,13 @@ const Home: NextPage = () => {
           <div className={styles.bottom_about_Icons}>
             <a
               className={`${styles.icons} fa fa-instagram`}
-              href="https://www.instagram.com/pilot.sami05"
+              href="https://www.instagram.com/samiturk8"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
             <a
               className={`${styles.icons} fa fa-twitter`}
-              href="https://twitter.com/SamiTurk12"
+              href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             ></a>
