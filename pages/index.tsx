@@ -1,33 +1,25 @@
 import type { NextPage } from "next";
-import wave from "./images/wave.png";
-import me from "./images/2.jpg";
+
 import styles from "../styles/Home.module.css";
 import Timeline from "./components/timeline-points";
 import 'font-awesome/css/font-awesome.min.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Image from 'next/image'
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
 import React from "react";
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import "../styles/Home.module.css"
-import a from "./images/a.jpg";
-import b from "./images/b.jpg";
-import c from "./images/c.jpg";
-import d from "./images/d.jpg";
-import e from "./images/e.jpg";
+
 import { Navigation } from "swiper";
 
 SwiperCore.use([EffectCoverflow, Pagination]);
 // if you want to use array
 const slide_img = [
-  a.src,
-  b.src,
-  c.src,
-  d.src,
-  e.src,
+  "./images/a.jpg",
+  "./images/b.jpg",
+  "./images/c.jpg",
+  "./images/d.jpg",
 ];
 
 
@@ -47,7 +39,7 @@ const Home: NextPage = () => {
         <div>
           <img
             className={styles.my_image}
-            src={me.src}
+            src={"./images/me.png"}
             width={width}
             height={864 * (width / 640)}
             alt="Me"
